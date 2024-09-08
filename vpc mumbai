@@ -1,0 +1,30 @@
+ yum install httpd -y
+    2  cd /var/www/html
+    3  echo "this is my server">index.html
+    4  cd
+    5  systemctl start httpd
+    6  systemctl enable httpd
+    7  systemctl start httpd
+    8  systemctl enable httpd
+    9  systemctl start httpd
+   10  systemctl enable httpd
+   11  ping google.com
+   12  ll
+   13  scp kw.txt root@20.0.0.149:/tmp
+   14  scp touch.txt root@20.0.1.50:/tmp
+   15  cd .ssh
+   16  ll
+   17  rm -rf known_hosts
+   18  rm -rf known_hosts.old
+   19  scp touch.txt root@20.0.1.50:/tmp
+   20  cat id_rsa.pub
+   21  vim authorized_keys
+   22  cd
+   23  systemctl start httpd
+   24  systemctl enable httpd
+   25  ll
+   26  scp kw.txt root@20.0.1.50:/tmp
+   27  ip a s
+   28  cd /mnt
+   29  ll
+   30  history
